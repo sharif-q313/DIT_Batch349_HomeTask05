@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(../image/Background.jpg);
+    background-size: cover;
+}
+header {
+    background-color: aliceblue;
+    font-size: 20px;
+    width: 100%;
+}
+header .title{
+    color: brown;
+    padding: 8px;
+    margin-left: 20px;
+}
+header .title a{
+    text-decoration: none;
+}
+.content{
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px;
+}
+.content .f_title{
+    margin: 40px 0px 20px 20px;
+    font-size: 40px;
+    color: rgb(40, 136, 61);
+    letter-spacing: 4px;
+}
+.content .uname{
+    margin: 10px 20px;
+}
+.content .uname .unameout{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding:10px 0px;
+    /* border: 1px solid red; */
+    font-size: 20px;
+}
+.content .uname .unameout a{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+}
+.content .uname .unamein input{
+    border: 1px solid green;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: transparent;
+}
+.content .pass{
+    margin: 10px 20px;
+}
+.content .pass label{
+    font-size: 20px;
+    padding: 10px 0px;
+    display: inline-block;
+}
+.content .pass .passin input{
+    border: 1px solid green;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: transparent;
+}
+.content .forget{
+    text-align: center;
+    padding: 10px;
+
+}
+.content .forget a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #303952;
+}
+.content .submit{
+    text-align: center;
+    padding:20px 0px 50px 0px;
+
+}
+.content .submit input{
+    padding: 8px;
+    font-size: 22px;
+    font-family: 'Rowdies', cursive;
+    width: 80%;
+    letter-spacing: 5px;
+    color: white;
+    background-color: forestgreen;
+    border: none;
+    border-radius: 10px;
+}
+.content .submit input:hover{
+    background-color: #2ecc71;
+}
+footer {
+    width: 100%;
+    padding: 12px;
+    background-color: #2f3640;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer a {
+    text-decoration: none;
+    color: #718093;
+  }
+  footer .contact {
+    margin-right: 20px;
+  }
+  footer .cntct {
+    padding: 0px 10px;
+    color: aliceblue;
+  }
+  

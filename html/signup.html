@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="../css/signup_style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title"><a href="../index.html">Shariful Islam</a></h1>
+      <div class="loginbtn">
+        <a href="../html/login.html">Login</a>
+      </div>
+    </header>
+    <div class="box">
+      <form action="#">
+        <h2>SignUp</h2>
+        <!-- name input start -->
+        <label for="name"> Name </label>
+        <div class="namefield">
+          <input type="text" name="name" id="" placeholder="First Name" />
+          <input type="text" name="name" id="" placeholder="Last Name" />
+        </div>
+        <!-- name input end -->
+        <!-- email -->
+        <label for="mail"> Email </label>
+        <div class="mail">
+          <input type="email" name="mail" id="" placeholder="Enter a valid Email" />
+        </div>
+        <!-- email end-->
+        <!-- birthday start -->
+        <div class="bdgen">
+          <div class="bday">
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="" />
+          </div>
+          <!-- birthday end -->
+          <!-- gender start -->
+          <div class="gen">
+            <label for="gender">Gender</label>
+            <select name="gender" id="">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+        </div>
+        <!-- gender end-->
+
+        <div class="dvnphn">
+          <div class="phn">
+            <label for="phone">Your Phone Number</label>
+            <input type="tel" name="" id="" placeholder="Your Phone Number" />
+          </div>
+          <div class="dvn">
+            <!-- divition data start  -->
+            <label for="divition">Select Your Divition</label>
+            <select name="divition" id="">
+              <option value="dhaka">Dhaka</option>
+              <option value="khulna">Khulna</option>
+              <option value="rajshahi">Rajshahi</option>
+              <option value="chitagong">Chitagong</option>
+              <option value="borishal">Borishal</option>
+              <option value="rangpur" selected>Rangpur</option>
+            </select>
+            <!-- divition data end  -->
+          </div>
+        </div>
+        <label for="passwrd">Password</label>
+        <input type="password" name="passwrd" id="" placeholder="Enter a Password">
+        <!-- course list start  -->
+        <!-- <label for="courses">Select the Courses you want to learn</label><br />
+        <input type="checkbox" name="" id="" />HTML <br />
+        <input type="checkbox" name="" id="" />CSS <br />
+        <input type="checkbox" name="" id="" />Javascript <br />
+        <input type="checkbox" name="" id="" />Python <br />
+        <input type="checkbox" name="" id="" />Wordpress <br />
+        <input type="checkbox" name="" id="" />C++
+        <br /> -->
+        <!-- course list end -->
+        <div class="subrst">
+            <input type="submit" value="Signup" />
+            <input type="reset" class="rst" value="Rest Data" />          
+        </div>
+
+        <p>Alredy have an Account? <a href="../html/login.html" target="_blank">Signin.</a></p>
+      </form>
+    </div>
+
+    <footer>
+      <span>Designed By <a href="../index.html#about">Shariful Islam</a></span>
+      <span class="contact">
+        <a href="" class="cntct">Facebook</a>
+        <a href="" class="cntct">Linkdin</a>
+        <a href="" class="cntct">Whatsapp</a>
+      </span>
+    </footer>
+  </body>
+</html>

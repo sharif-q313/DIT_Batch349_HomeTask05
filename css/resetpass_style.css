@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../image/background3.jpg);
+  background-size: cover;
+}
+header {
+  background-color: aliceblue;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .title {
+  color: brown;
+  padding: 8px;
+  margin-left: 20px;
+}
+header .title a {
+  text-decoration: none;
+}
+header .loginbtn {
+  width: 120px;
+  height: 55px;
+  margin-top: 5px;
+  margin-right: 20px;
+  background-color: rgb(8, 143, 49);
+  border-radius: 8px;
+  text-align: center;
+}
+header .loginbtn:hover {
+  background-color: rgb(35, 204, 86);
+}
+header .loginbtn a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  display: block;
+  padding: 12px;
+}
+.inform {
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px;
+}
+.inform h2 {
+  font-size: 35px;
+  margin: 20px 30px;
+  margin-top: 40px;
+}
+.inform p {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 19px;
+}
+.inform label {
+  margin: 2px 20px;
+  font-size: 20px;
+  display: block;
+  padding: 10px;
+}
+.inform .mail {
+  margin: 5px 30px;
+}
+.inform .mail input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.inform .submit{
+    text-align: center;
+    padding: 20px;
+
+}
+.inform .submit input{
+    padding: 8px;
+    font-size: 22px;
+    font-family: 'Rowdies', cursive;
+    width: 80%;
+    letter-spacing: 3px;
+    color: white;
+    background-color: forestgreen;
+    border: none;
+    border-radius: 30px;
+}
+.inform .submit input:hover{
+    background-color: #2ecc71;
+}
+.inform .login{
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.inform .login a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #2c3e50;
+}
+.inform .login a:hover{
+text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  padding: 12px;
+  background-color: #2f3640;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  text-decoration: none;
+  color: #718093;
+}
+footer .contact {
+  margin-right: 20px;
+}
+footer .cntct {
+  padding: 0px 10px;
+  color: aliceblue;
+}
